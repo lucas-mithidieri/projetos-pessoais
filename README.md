@@ -1,6 +1,6 @@
 # Projetos-pessoais
-Aqui você encontra as soluções que criei para resolver ou facilitar alguma tarefa.
+Projetos em desenvolvimento..
 
-Lista de soluções:
+* IDE python - PYIDE
 * Criador de flashcards imprimíveis
 * Visualizador de arquitetura CUDA

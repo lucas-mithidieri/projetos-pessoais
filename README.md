@@ -1,6 +1,5 @@
 # Projetos-pessoais
-Projetos em desenvolvimento..
 
 * IDE python - PYIDE
-* Criador de flashcards
-* Visualizador de arquitetura CUDA
+* Criador de flashcards (upload em breve)
+* Visualizador de arquitetura CUDA (upload em breve)

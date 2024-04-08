@@ -2,7 +2,7 @@
 ## Uma IDE focada no mais importante..
 IDEs atuais são completas, porém complexas, e fáceis de causar distrações que são matadoras da produtividade.
 
-A ideia por trás desse IDE é proporcionar um ambiente focado no desenvolvimento de Python visando aumentar a produtividade, e possibilitar que iniciantes e desenvolvedores avançados se aprofundem na linguagem Python.
+A ideia por trás desse IDE é proporcionar um ambiente focado no desenvolvimento de Python e nada mais, além de tornar possível que tanto iniciantes quanto desenvolvedores avançados se aprofundem na linguagem Python.
 
 ![](https://github.com/lucas-mithidieri/projetos-pessoais/blob/main/PYIDE/img/current.png)
 

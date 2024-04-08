@@ -2,5 +2,5 @@
 Projetos em desenvolvimento..
 
 * IDE python - PYIDE
-* Criador de flashcards imprimíveis
+* Criador de flashcards
 * Visualizador de arquitetura CUDA

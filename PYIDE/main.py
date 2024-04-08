@@ -47,7 +47,7 @@ class App(Frame):
         self.configure_logger()
         self.current_execution = 1
 
-    def new_tools_button(self, icon_filename='play.png', command=None):
+    def new_tools_button(self, icon_filename='icons\\play.png', command=None):
         img = Image.open(f"{BASE_DIR}\\{icon_filename}")
         self.toolbar_icons.append(ImageTk.PhotoImage(img))
         button = Button(self.toolbar_tools, image=self.toolbar_icons[-1], command=command) #, bd=1, relief='raised', command=run_all)
@@ -71,18 +71,18 @@ class App(Frame):
         self.toolbar_tools.pack()
 
         # Buttons ####################################################
-        self.run_all_button = self.new_tools_button(icon_filename='play.png', command=self.run_all)
+        self.run_all_button = self.new_tools_button(icon_filename='icons\\play.png', command=self.run_all)
         
         cmd = lambda event=None: self.stop_execution(event)
-        self.stop_execution_button = self.new_tools_button(icon_filename='stop.png', command=cmd)
+        self.stop_execution_button = self.new_tools_button(icon_filename='icons\\stop.png', command=cmd)
 
-        self.inspect_button = self.new_tools_button(icon_filename='inspect.png')
+        self.inspect_button = self.new_tools_button(icon_filename='icons\\inspect.png')
 
-        self.debug_button = self.new_tools_button(icon_filename='debug_.png', command=lambda:self.run_all(True))
+        self.debug_button = self.new_tools_button(icon_filename='icons\\debug_.png', command=lambda:self.run_all(True))
 
-        self.next_button = self.new_tools_button(icon_filename='next.png', command=self.debug_next_line)
+        self.next_button = self.new_tools_button(icon_filename='icons\\next.png', command=self.debug_next_line)
 
-        self.continue_button = self.new_tools_button(icon_filename='continue.png', command=self.debug_continue)
+        self.continue_button = self.new_tools_button(icon_filename='icons\\continue.png', command=self.debug_continue)
         
         self.continue_button['state'] = 'disabled'
         self.next_button['state'] = 'disabled'
